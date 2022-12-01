@@ -29,10 +29,13 @@ const panic = sentence => {
     return sentenceArr.join(' 😱 ');
 }
 
+// Alternative Solution
+const panic2 = s => s.split(' ').join(' 😱 ').toUpperCase() + '!';
+
 // Test your function
 // console.log(panic("I'm almost out of coffee")); 
 // console.log(panic("winter is coming"))
 
 // Change the argument to test
-const testPhrase = panic("winter is coming");
+const testPhrase = panic("i am out");
 console.log(testPhrase);
