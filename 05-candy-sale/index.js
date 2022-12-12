@@ -19,10 +19,10 @@ import products from "./data.js";
 
 function getSaleItems(data){
         return data.filter(element => element.type === "sweet").map(element => {
-        return {
-            "item": element.item,
-            "price": element.price
-            }
+            return {
+                "item": element.item,
+                "price": element.price
+                }
         })
 }
 
