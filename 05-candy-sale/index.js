@@ -17,13 +17,13 @@ import products from "./data.js";
     ]
 */
 
-function getSaleItems(data){
-        return data.filter(element => element.type === "sweet").map(element => {
-            return {
-                "item": element.item,
-                "price": element.price
-                }
-        })
+function getSaleItems(data) {
+    return data.filter(element => element.type === "sweet").map(element => {
+        return {
+            "item": element.item,
+            "price": element.price
+        }
+    })
 }
 
 console.log(getSaleItems(products))

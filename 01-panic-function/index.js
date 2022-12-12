@@ -19,10 +19,10 @@ const panic = sentence => {
     // Transform uppercase the entire sentence
     sentence = sentence.toUpperCase();
     sentence += '!';
-    
+
     // Returning if it's a word
-    if(!sentence.includes(' ')) return sentence;
-    
+    if (!sentence.includes(' ')) return sentence;
+
     // Creating array on every space
     const sentenceArr = sentence.split(' ');
     // Converting to String again with 😱 emoji in between
