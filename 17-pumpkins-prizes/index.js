@@ -1,4 +1,3 @@
-
 /* 
 Scrimba mascot Pumpkin has won the grand prize at an international 
 cat show. Below are Pumpkin's scores from the judges, as well as all the 
